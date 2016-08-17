@@ -770,16 +770,16 @@
         },
         {
             "name": "drupal/console",
-            "version": "1.0.0-beta5",
+            "version": "1.0.0-beta3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hechoendrupal/DrupalConsole.git",
-                "reference": "8905ee36a8339b8e237d370fea790a994350a6d9"
+                "reference": "e1be5a726935e23472abaf193dfef40c3157214e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hechoendrupal/DrupalConsole/zipball/8905ee36a8339b8e237d370fea790a994350a6d9",
-                "reference": "8905ee36a8339b8e237d370fea790a994350a6d9",
+                "url": "https://api.github.com/repos/hechoendrupal/DrupalConsole/zipball/e1be5a726935e23472abaf193dfef40c3157214e",
+                "reference": "e1be5a726935e23472abaf193dfef40c3157214e",
                 "shasum": ""
             },
             "require": {
@@ -790,7 +790,7 @@
                 "gabordemooij/redbean": "@stable",
                 "guzzlehttp/guzzle": "~6.1",
                 "padraic/phar-updater": "~1.0@dev",
-                "php": "^5.6 || ^7.0",
+                "php": ">=5.5.9",
                 "phpseclib/phpseclib": "2.*",
                 "stecman/symfony-console-completion": "^0.5.1",
                 "symfony/config": "~2.8",
@@ -853,7 +853,7 @@
                 "drupal",
                 "symfony"
             ],
-            "time": "2016-08-02 04:56:07"
+            "time": "2016-06-29 06:04:48"
         },
         {
             "name": "drupal/core",
